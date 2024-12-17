@@ -1,1 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* Header Styles */
+header {
+    width: 100%;
+    background-color: #2a3d66;
+    padding: 10px 20px;
+    color: white;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header ul li.logo {
+    font-size: 3rem; 
+    margin-right: 10px;
+    color: #f5c518; 
+}
+
+h1, h2, h3 {
+    color: #2a3d66;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #f0f0f0;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+/* Style for Twitter */
+.twitter-tweet {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #eaf3fc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: auto;
+    background-color: #2a3d66;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        padding: 0 10px;
+    }
+
+    body {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    img {
+        max-width: 90%;
+    }
+
+    .twitter-tweet {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    a {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        max-width: 70%;
+    }
+
+    .twitter-tweet {
+        max-width: 70%;
+    }
+}
 
